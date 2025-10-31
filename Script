@@ -1,0 +1,15 @@
+-- Get the current PlaceId
+local placeId = game.PlaceId
+
+-- Check PlaceId and load the corresponding script
+if placeId == 88278197066364 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Okokpo/Znama/refs/heads/main/BACONROBLOXBYSCRIP"))()
+elseif placeId == 3351674303 then
+    loadstring(game:HttpGet("https://protected-roblox-scripts.onrender.com/3781fb78aec004049d23310200393abd"))()
+elseif placeId == 123081450742357 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Okokpo/Halloween/refs/heads/main/Halloween%20Spotlight"))()
+elseif placeId == 4448566543 then  -- Banana Eats
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Okokpo/Hsjsjs/refs/heads/main/Sbbsj"))()
+else
+    print("No script assigned for this PlaceId:", placeId)
+end
